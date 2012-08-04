@@ -1,4 +1,5 @@
 //new mongoose version:
+/*
   var mongoose = require('mongoose');
   module.exports.ready = function dbJsReady(readyCallback) {
     mongoose.createConnection('mongodb://localhost/maindb').on('open', function(db){
@@ -6,9 +7,9 @@
       readyCallback(db);
     });
   };
+*/
 
 //raw mongodb version:
-/*
   var mongo = require('mongodb'),
       Connection = mongo.Connection;
       
@@ -24,4 +25,3 @@
       readyCallback(db);
     });
   };
-*/
